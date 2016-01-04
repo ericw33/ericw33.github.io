@@ -11,3 +11,9 @@ body {
 h1 {color: red;
 }
 h4 {color: green;}
+#summary {color: orange;
+}
+img {width: 150px;}
+h4 {font-family: cursive;}
+#bio {text-align: center;}
+#pic {text-align: center;}
