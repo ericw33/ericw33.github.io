@@ -1,7 +1,7 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background-image: url(linedpaper.png);
+  background-image: url(snow-background-11.jpg);
   background-repeat: repeat;
 }
 #wrapper {
@@ -11,9 +11,6 @@ body {
 h1 {color: red;
 }
 h4 {color: green;}
-#summary {color: orange;
-}
-img {width: 150px;}
-h4 {font-family: cursive;}
-#bio {text-align: center;}
-#pic {text-align: center;}
+#every-other-h4	{text-decoration: underline;}
+#every-other-h4	{color: black;}
+.peru {font-weight: bold;}
