@@ -1,64 +1,200 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Eric Weissmann, MBA Candidate</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-</head>
-<body>
-  <div id="wrapper">
-    <h1>Eric Weissmann's Profile</h1>
-    <p>
-      <img src="eric.jpg">
-    </p>
-    <h2>MBA Candidate</h2>
-    <h3>Chicago, IL</h3>
-    <div>
-      <h4 id="every-other-h4">Connect With Me</h4>
-        <p ><a href="mailto:eweissmann2016@kellogg.northwestern.edu">Email</a> <a href="http://twitter.com/ericweissmann">Twitter</a> <a href="http://facebook.com/ericweissmann10">Facebook</a> 
-    </div>
-    <div>
-      <h4 >Summary</h4>
-      <p >
-        Eric grew up in the Washington, DC metro area.  He attended Walt Whitman High School and then went to the University of Rochester for college, where he studied Political Science, Ethics, and Business.  (An uncommon combination!).  From there, he went to work at Columbia Books & Information Services in Bethesda, where he started as a Product Manager and later worked as Director of Operations.  Now, he is an MBA candidate at Kellogg. 
-      </p>
-    </div>
-    <div>
-      <h4 id="every-other-h4">Professional Experience</h4>
-         <p>I am currently pursuing my MBA from the Kellogg School of Management with an expected graduation in June of 2016. At Kellogg, I'm focused on refining my hard skills and gaining broad exposure to current and future executives across a wide variety of industries.</p>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Our Wedding Website!</title>
+    <!-- Bootstrap and jQuery -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- My own styles -->
+    <link rel="stylesheet2" type="text/css" href="stylesheet2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-inverse" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="www.thisistheweddingwebsite.com">Eric & Colleen's Wedding</a>
+        </div>
 
-          <p>I have experience as a general manager of a fast-growing company, Columbia Books & Information Services (CBIS).  CBIS is a business to business publishing company focused primarily on compliance publications and online databases in a number of niche areas, including human resources, government relations, nonprofits, and federal grants.</p>
-
-          <p>I served as head of operations, responsible for growing the core operational infrastructure of the firm while simultaneously leading us through two significant acquisitions which resulted in significant growth of the company.  I built out our accounting/finance, technology, and human resources department to allow them to support our rapidly growing business.  I oversaw our customer service department in two offices, and was responsible for managing offices in three states.  I managed our relationship with overseas technology support vendors while identifying areas for process improvement to create significant operating cost-savings.  I led the due-diligence and integration processes for our major acquisitions.</p>
-
-          <p>Previously, I worked in a product management role, overseeing all aspects of our U.S. Congress Handbook and Lobbyists.info brands.  I was responsible for both direct sales and product development, identifying areas to for new product creation to support the needs of our customers and then working with our developers to create those products. </p>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="index.html">
+                <i class="fa fa-heart-o"></i>
+                Home
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <i class="fa fa-info-circle"></i>
+                Information
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Ceremony</a></li>
+                <li><a href="#">Venue</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Transportation</a></li>
+                <li><a href="#">Registry</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          </ul>
+        </div>
+      </nav>
     </div>
-    <div>
-      <h4>Skills</h4>
-      <ul>
-        <li>Paying airline change fees</li>
-        <li>HTML Coding</li>
-        <li class="peru">Attending weddings for close friends in Peru</li>
-        <li>Small Talk</li>
-      </ul>
-    </div>
-    <div>
-      <h4 id="every-other-h4">Hobbies</h4>
-      <ul>
-        <li>Watching football</li>
-        <li>Drinking beer</li>
-        <li>Eating</li>
-        <li>Dressing up in costume for Kellogg events</li>
-        <li>Staying in the penthouse in Silverado</li>
-      </ul>
-      <h4>Favorite Teams</h4>
-      <ul>
-        <li>Washington Nationals</li>
-        <li>Washington Redskins</li>
-        <li>Kellogg Bearded Men's Club</li>
-      </ul>
+    <div class="container">
+      <h1 class="title">
+        Welcome To Our Wedding Website!
+        </small>
+      </h1>
+      <div class="row">
+        <div class="col-xs-6 col-lg-8">
+        <h2>Our Story</h2>
+        Colleen and Eric met in November of 2012.  They met through a mutual friend, Brittany, who introduced them.  Eric agreed to try out Yoga with Brittany.  It was during November, so Eric was doing "Movember".  That meant he had a half-grown, very creepy-looking mustache.  Colleen ended up not making the yoga session, but they met at brunch and had an amazing conversation.  They met again at Brittany's holiday party a month later.  Eric asked Colleen out for a yoga date to make up for the last one.  However, Yoga turned into happy hour, there were many more dates, and Eric never did Yoga again.</div>
+        <div class="col-xs-6 col-lg-4">
+         <img class="img-responsive img-circle" src="images/IMG_3423.jpg">
+          <ul class="list-unstyled"> <li>.</li></ul>
+          <button type="button" class="btn btn-primary btn-block"> <i class="fa fa-envelope"></i> RSVP For Our Big Day!</button> </div>
+         <ul class="list-unstyled">
+   <li>.</li>
+</ul>
+      <div>
+      </div>
+        </div>
+<div class="row">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/sunset.jpg">
+      <div class="carousel-caption">
+        <h3>The Sunset On The Evening We Got Engaged</h3> 
+      <ul class="list-unstyled">
+   <li>.</li>
+   <li>.</li>
+   <li>.</li>
+</ul>
+      </div>
     </div>
   </div>
-</body>
+
+  <!-- Left and right controls -->
+</div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-sm-4">
+          <h2>Bridal Party</h2>
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fa fa-female"></i>Erin Fauerbach</a> Maid of Honor
+            <li><a href="#"><i class="fa fa-female"></i>Hannah Jones</a> Bridesmaid</li>
+            <li><a href="#"><i class="fa fa-female"></i>Grace Jones</a> Bridesmaid</li>
+            <li><a href="#"><i class="fa fa-male"></i>Ethan Eisenstein</a> Groomsman</li>
+            <li><a href="#"><i class="fa fa-male"></i>Matthew Eisenstein</a> Groomsman</li> </ul> </div>
+   <div class="col-xs-12 col-sm-4"> 
+    <h2>Parents</h2>
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fa fa-female"></i>Marianne Fauerbach</a> Mother of the Bride
+            <li><a href="#"><i class="fa fa-male"></i>Neil Fauerbach</a> Father of the Bride
+            <li><a href="#"><i class="fa fa-female"></i>Rhonda Eisenstein</a> Mother of the Groom</li>
+            <li><a href="#"><i class="fa fa-male"></i>Harry Eisenstein</a> Step-Father of the Groom</li>
+            <li><a href="#"><i class="fa fa-male"></i>Mark Weissmann</a> Father of the Groom</li> </ul> </div>
+  <div class="col-xs-12 col-sm-4"> 
+    <h2>Ushers</h2>
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fa fa-male"></i>Andrew Flack</a> Friend
+            <li><a href="#"><i class="fa fa-male"></i>Keith Hoffman</a> Friend
+            <li><a href="#"><i class="fa fa-male"></i>Graham Garvie</a> Friend</li>
+            <li><a href="#"><i class="fa fa-female"></i>Jessica Mack</a> Friend</li>
+            <li><a href="#"><i class="fa fa-female"></i>Mo O'Neill</a> Friend</li> </ul> </div>
+     </div>
+      <div class="row">
+        <div class="col-lg-7">
+          <h2>Here is Who is Coming to Our Wedding...So Far!</h2>
+          <table class="table table-striped table-bordered">
+            <tr>
+              <td><strong>Name</strong></td>
+              <td><strong>Email</strong></td>
+              <td><strong>RSVP Status</strong></td>
+            </tr>
+            <tr>
+              <td>Amy Bauman</td>
+              <td>abauman@fakeemail.com</td>
+              <td>Definitely Coming!</td>
+            </tr>
+            <tr>
+              <td>Bridget Woodbury</td>
+              <td>bwoods@fakeemail.com</td>
+              <td>Definitely Coming!</td>
+            </tr>
+           <tr>
+              <td>Michael Barrett</td>
+              <td>mbarrett2734@fakeemail.com</td>
+              <td>Probably Coming</td>
+            </tr>
+           <tr>
+              <td>Ian McEuen</td>
+              <td>ianmac@fakeemail.com</td>
+              <td>Definitely Coming!</td>
+            </tr>
+           <tr>
+              <td>Graham Garvie</td>
+              <td>goldenbeard@fakeemail.com</td>
+              <td>Definitely Coming!</td>
+            </tr>
+          <tr>
+              <td>Amy Goldstein</td>
+              <td>sharkattack@fakeemail.com</td>
+              <td>Can't Make It <i class="fa fa-frown-o"></i></td>
+            </tr> 
+          </table>
+        </div>
+        <div class="col-lg-5">
+        <h2>Add Your Name To The List!</h2>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Your Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Type Your Beautiful Name Here">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Your Email</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Type Your Awesome Email Address Here">
+  </div>
+  <div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+    You're Definitely Going To Be There!
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+    You're Probably Going To Be There But Have a Fear of Commitment
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+    You're Super Sorry But You Really Can't Come (You Better Have a Great Excuse!)
+  </label>
+</div>
+</form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
